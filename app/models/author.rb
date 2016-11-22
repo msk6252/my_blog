@@ -1,2 +1,3 @@
-class Author < ActiveRecord::Base
+class Author < ActiveRecord::Bas
+	has_many :post
 end
